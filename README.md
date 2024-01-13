@@ -7,17 +7,17 @@
 ``
 https://www.anaconda.com/download 
 ``  
-- After you have downloaded the program and followed through with instructions, you will need to 
-   download the jupyter notebook app within the Anaconda program.
-- Once you have opened jupyter, you will be prompted to select the folder you would like to work in. 
-- You can go ahead and select the chest_xray folder to create the new jupyter file. 
-- After selecting the folder, you will be directed to the web and a tab will be opened for a brand new ipython file, 
+- After you have downloaded the program and followed through with the instructions, you will need to 
+   download the Jupyter Notebook app within the Anaconda program.
+- Once you have opened Jupyter, you will be prompted to select the folder you would like to work in. 
+- You can select the chest_xray folder to create the new Jupyter file. 
+- After selecting the folder, you will be directed to the web and a tab will be opened for a brand new iPython file, 
 you are ready to begin.
 # Modules
-- For the firstch block of code, we will begin by importing the necessary modules for this program.
+- For the first block of code, we will begin by importing the necessary modules for this program.
 ![img.png](img.png)
 - Note, you may need to install some of the modules or parent modules of those listed above. If needed,
-Jupyter will notify you of the program that are missing, and you can install the needed program in the
+Jupyter will notify you of the programs that are missing, and you can install the needed program in the
 next line by simpling writing (replace the {} with the program name mentioned by Jupyter):
 ```
 !pip install {PROGRAM_NAME}
@@ -27,9 +27,9 @@ next line by simpling writing (replace the {} with the program name mentioned by
 
 - After importing all modules that we will use, we will begin by assigning the absolute path of the
 test, train, and val folders located within the chest_xray folder. Each folder will contain two folders, 
-one consisted of x-ray lung images of healthy patients and the other of those suffering from pneumonia. 
+one consisting of x-ray lung images of healthy patients and the other of those suffering from pneumonia. 
 - You will need to find the absolute path of each of these folders and assign them to a variable. 
-- Note: Your path may differ than mine
+- Note: Your path may differ from mine
 ![img_1.png](img_1.png)
 - Next, we will need to initialize the batch_size, and image height and weight.
 
